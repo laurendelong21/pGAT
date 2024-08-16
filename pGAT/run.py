@@ -3,7 +3,7 @@ import os
 import datetime
 from utils import augment_triplet, evaluate
 
-dataset = '/home/harsha1/Desktop/pLogicNetforwn/data/wn18rr'
+dataset = './data/wn18rr'
 path = './record'
 
 iterations = 5
@@ -81,7 +81,7 @@ mln_iters = 1000
 mln_lr = 0.0001
 mln_threads = 8
 
-out_path = "/home/harsha1/Desktop/pLogicNetforwn/codes/checkpoints/wn/out/"
+out_path = "./pgat_out/"
 
 # ------------------------------------------
 
